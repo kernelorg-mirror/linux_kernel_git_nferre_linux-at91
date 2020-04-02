@@ -318,6 +318,7 @@
 
 &macb0 {
 	phy-mode = "rmii";
+	magic-packet;
 	#address-cells = <1>;
 	#size-cells = <0>;
 	pinctrl-names = "default";
